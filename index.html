@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container fixed-header">
+    <nav>
+      <img src="images/MSlogo.png" alt="Logo" class="logo">
+      <ul class="nav-links">  <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">  <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </div>
+    <section class="hero" id="hero">
+        <div class="container">
+          <div class="hero-text">
+            <p>Java Programmer | Web Developer</p>
+            <h1>Hi, I'm <span>Manish </span><br> Sharma From India</h1>
+          </div>
+          <div class="hero-image">
+            <img src="images/bgremove.png" alt="Profile Picture">
+          </div>
+        </div>
+      </section>
+  <!------About----->
+  <div id="about" style="width: 100%; height: 100%; margin: 0; padding: 2rem;">
+    <div class="container">
+      <div class="row">
+        <div class="about-column-1">
+          <img src="images/PhotoManishpng.png">
+        </div>
+        <div class="about-column-2">
+          <h1 class="sub-title1">About Me</h1>
+          <p>Hello! I'm Manish Sharma, a passionate Java Programmer and Web Developer from India. With a strong foundation in Java data structures and algorithms, I have developed skills in creating efficient, user-friendly applications. My journey in web development includes hands-on projects like a fitness website using the MERN stack and a personal portfolio website made with HTML, CSS, and JavaScript. I hold a Master of Computer Applications(MCA) degree from SHARDA UNIVERSITY, which provided me with a solid educational background to support my technical skills. Additionally, I have earned certifications in Java programming from Infosys Springboard and web development from DevTown, in association with Google Developers Student Clubs. These experiences have strengthened my expertise and fueled my enthusiasm for continuous learning and growth in the tech industry. Fluent in both English and Hindi, I am committed to delivering high-quality solutions and contributing to the ever-evolving field of technology. Let's connect and create something amazing together!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----Skils---->
+  <section id="skills">
+    <div >
+    <h1 class="sub-title2">My Skills</h1>
+    <div class="skill-card-container">
+      <div class="skill-card">
+        <i class="fab fa-java"></i>
+        <h4>Java</h4>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-project-diagram"></i>
+        <h4>SDLC</h4>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-calculator"></i>
+        <h4>DSA</h4>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-html5"></i>
+        <h4>HTML</h4>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-css3-alt"></i>
+        <h4>CSS</h4>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-codepen"></i>
+        <h4>VS Code</h4>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-github"></i>
+        <h4>GitHub</h4>
+      </div>
+    </div>
+  </section>
+  <!--Projects-->
+  <section id="projects">
+    <h2 class="sub-title3">My Projects</h2>
+    <div class="project-card-container">
+      <div class="project-card">
+        <img src="images/project1PNG.png" alt="Project 1">
+        <h4>Fitness Website Development</h4>
+        <p>
+          <ul>
+            <li>
+            Collaboratively built a modern web application, We utilized the MERN stack to create a user-friendly and interactive fitness platform.
+            </li>
+            <li>
+            To increase user engagement, I co-developed and implemented a custom AI chatbot, fostering a more engaging fitness experience.
+            </li>
+            <li>
+            Through data collection for chatbot training, conversational flow design, and project documentation, I contributed to a seamless user experience.
+            </li>
+          </ul>
+        </p>
+        <a href="https://github.com/shmanish10/Shape-Up-App" class="project-link">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="images/project2PNG.png" alt="Project 2">
+        <h4>Personal Portfolio Development</h4>
+        <p><ul><li> Built a personal portfolio website from scratch,Utilized HTML, CSS, and JavaScript to independently develop this website showcasing my technical skills.
+          </li><li> Ensured the website adapts seamlessly to different screen sizes and devices, providing an optimal experience for all visitors.
+          </li><li> Optimized website performance and loading speed through the use of best practices, guaranteeing a smooth browsing experience.
+         </li> </ul></p>
+        <a href="" class="project-link">View Project</a>
+      </div>
+    </div>
+  </section>
+  <!----Contacts-->
+  <section id="contact">
+    <h2 class="sub-title4">Contact Me</h2>
+    <div class="contact-container">
+      <div class="contact-info">
+        <p>Feel free to reach out if you have any questions or projects in mind!</p>
+        <div class="contact-details"><ul><li style="list-style-type: none;">
+          <a href="tel:+91-6396053450" class="contact-item">
+            <i class="fas fa-phone"></i> <span>+91-6396053450</span>
+          </a> </li> <li style="list-style-type: none;">
+          <a href="mailto:shmanish1001@gmail.com" class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <span>Email</span>
+          </a> </li> <li style="list-style-type: none;">
+          <a href="https://www.linkedin.com/in/manishsharma10/" target="_blank" class="contact-item">
+            <i class="fab fa-linkedin"></i>
+            <span>LinkedIn</span>
+          </a></li><li style="list-style-type: none;">
+          <a href="https://www.instagram.com/manish.sharma_10/" target="_blank" class="contact-item">
+            <i class="fab fa-instagram"></i>
+            <span>Instagram</span>
+          </a></li><li style="list-style-type: none;">
+          <a href="https://github.com/shmanish1001" target="_blank" class="contact-item">
+            <i class="fab fa-github"></i>
+            <span>GitHub</span>
+          </a> </li>
+        </ul>
+        </div>
+      </div>
+      <div class="contact-form">
+        <h3>Get in Touch</h3>
+        <form>
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="8" placeholder="Type Your Message Here"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+<!--footer-->
+  <footer class="footer">
+  <p>&copy; Made with love &nbsp; <i class="fas fa-heart"></i> &nbsp; by Manish Sharma</p>
+</footer>
+
+<script>
+   const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links');
+
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active'); // Toggle hamburger icon style (optional)
+  navLinks.classList.toggle('show'); // Toggle visibility of navigation links
+});
+</script>
+</body>
+</html>
