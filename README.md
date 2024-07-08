@@ -28,9 +28,13 @@ Contributing
 I welcome contributions to improve this portfolio website. If you have any suggestions or find any issues, please open an issue or submit a pull request.
 
 Contact: 
+
 Email: shmanish1001@gmail.com
+
 LinkedIn: Manish Sharma
-GitHub: shmanish1001
+
+GitHub: shmanish10
+
 Instagram: manish.sharma_10
 
 ![project2PNG](https://github.com/shmanish10/My-Portfolio-Website/assets/139965926/bfec5eea-bf5c-479b-b157-958b2955e002)
