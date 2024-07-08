@@ -16,18 +16,6 @@ CSS3: For styling the website and ensuring a responsive design.
 JavaScript: For adding interactivity, including the hamburger menu functionality.
 Font Awesome: For icons used in the skills section and contact information.
 
-Installation:
-To run the portfolio website locally, follow these steps:
-1. Clone the repository:
-bash
-Copy code
-git clone https://github.com/shmanish1001/personal-portfolio.git
-2. Navigate to the project directory:
-bash
-Copy code
-cd personal-portfolio
-3. Open index.html in your preferred web browser to view the website.
-
 Usage
 Feel free to explore the various sections of the website:
 Home: A brief introduction and hero image.
